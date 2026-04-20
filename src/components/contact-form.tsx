@@ -1,5 +1,7 @@
 import { type FormEvent, useMemo, useState } from "react";
+import { useServerFn } from "@tanstack/react-start";
 import { siteConfig } from "@/lib/site-config";
+import { submitContact } from "@/server/contact";
 
 type FormState = {
   name: string;
