@@ -1,0 +1,14 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="28" fill="#0B0B0B"/>
+  <rect x="90" y="90" width="1020" height="620" rx="30" fill="#101010" stroke="#C9A14A" stroke-opacity="0.35" stroke-width="2"/>
+  <rect x="168" y="170" width="540" height="360" rx="24" fill="#0E0E0E" stroke="#2B2B2B"/>
+  <rect x="756" y="220" width="276" height="420" rx="30" fill="#111111" stroke="#C9A14A" stroke-opacity="0.5" stroke-width="3"/>
+  <rect x="792" y="280" width="204" height="226" rx="16" fill="#0B1320" stroke="#3B5D7E"/>
+  <circle cx="894" cy="354" r="52" fill="#132033" stroke="#5C89B5" stroke-width="4"/>
+  <path d="M332 240C426 240 502 316 502 410" stroke="#C9A14A" stroke-width="10" stroke-linecap="round"/>
+  <path d="M296 276C368 276 426 334 426 406" stroke="#C9A14A" stroke-opacity="0.6" stroke-width="8" stroke-linecap="round"/>
+  <path d="M258 314C310 314 352 356 352 408" stroke="#C9A14A" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="240" cy="410" r="14" fill="#C9A14A"/>
+  <text x="170" y="610" fill="#F4F4F5" font-size="42" font-family="Arial, sans-serif" font-weight="700">Monitoreo remoto 24/7</text>
+  <text x="170" y="660" fill="#B3B3B8" font-size="30" font-family="Arial, sans-serif">Control total desde m�vil y escritorio</text>
+</svg>

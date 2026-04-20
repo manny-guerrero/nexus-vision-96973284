@@ -1,0 +1,13 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" rx="28" fill="#0B0B0B"/>
+  <rect x="70" y="70" width="1060" height="660" rx="24" stroke="#C9A14A" stroke-opacity="0.35" stroke-width="2"/>
+  <path d="M204 420L456 288C484 273 520 276 545 295L622 354C646 373 681 376 708 362L900 264C920 254 944 259 958 277L1024 360" stroke="#C9A14A" stroke-width="8" stroke-linecap="round"/>
+  <rect x="160" y="430" width="530" height="108" rx="26" fill="#181818" stroke="#C9A14A" stroke-opacity="0.45"/>
+  <circle cx="752" cy="434" r="108" fill="#171717" stroke="#C9A14A" stroke-width="4"/>
+  <circle cx="752" cy="434" r="56" fill="#0E1825" stroke="#5C89B5" stroke-width="4"/>
+  <circle cx="752" cy="434" r="22" fill="#4CA0E6"/>
+  <path d="M850 484L996 560" stroke="#C9A14A" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="1016" cy="570" r="20" fill="#C9A14A"/>
+  <text x="168" y="496" fill="#F4F4F5" font-size="42" font-family="Arial, sans-serif" font-weight="700">Instalaci�n CCTV Premium</text>
+  <text x="168" y="548" fill="#B3B3B8" font-size="30" font-family="Arial, sans-serif">Cobertura precisa y operaci�n discreta</text>
+</svg>
