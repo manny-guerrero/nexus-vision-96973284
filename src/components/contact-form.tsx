@@ -19,6 +19,7 @@ export function ContactForm() {
   const [form, setForm] = useState<FormState>(initialState);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [feedback, setFeedback] = useState("");
+  const submit = useServerFn(submitContact);
 
   const isValid = useMemo(() => {
     return (
@@ -40,16 +41,7 @@ export function ContactForm() {
     setFeedback("");
 
     try {
-      const response = await fetch("/api/contact", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
-      });
-
-      if (!response.ok) {
-        throw new Error("Request failed");
-      }
-
+      await submit({ data: form });
       setStatus("success");
       setFeedback("Solicitud recibida. Te contactaremos en breve.");
       setForm(initialState);
@@ -58,6 +50,7 @@ export function ContactForm() {
       setFeedback("Hubo un error al enviar tu solicitud. Escríbenos por WhatsApp.");
     }
   }
+
 
   return (
     <form
