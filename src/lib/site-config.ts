@@ -5,7 +5,7 @@ export const siteConfig = {
   city: "La Habana",
   country: "Cuba",
   whatsappUrl:
-    "https://wa.me/5354755816?text=Hello%2C%20I%20am%20interested%20in%20installing%20security%20cameras%20and%20would%20like%20more%20information",
+    "https://wa.me/5354755816?text=Hola%2C%20estoy%20interesado%20en%20instalar%20un%20sistema%20de%20c%C3%A1maras%20y%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n.",
   heroTitle: "Tu seguridad no es negociable",
   heroSubtitle:
     "Protegemos lo que más importa con tecnología avanzada y confidencialidad absoluta",
